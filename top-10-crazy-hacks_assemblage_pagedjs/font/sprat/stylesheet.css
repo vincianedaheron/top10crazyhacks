@@ -1,0 +1,111 @@
+
+
+@font-face {
+    font-family: 'SpratCondensedLight';
+    src: url('SpratCndLight.woff2') format('woff2'),
+         url('SpratCndLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratCondensedMedium';
+    src: url('SpratCndMedium.woff2') format('woff2'),
+         url('SpratCndMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratCondensedRegular';
+    src: url('SpratCndRegular.woff2') format('woff2'),
+         url('SpratCndRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratCondensedThin';
+    src: url('SpratCndThin.woff2') format('woff2'),
+         url('SpratCndThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratExtandedLight';
+    src: url('SpratExtnLight.woff2') format('woff2'),
+         url('SpratExtnLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratExtandedMedium';
+    src: url('SpratExtnMedium.woff2') format('woff2'),
+         url('SpratExtnMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratExtandedRegular';
+    src: url('SpratExtnRegular.woff2') format('woff2'),
+         url('SpratExtnRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratExtandedThin';
+    src: url('SpratExtnThin.woff2') format('woff2'),
+         url('SpratExtnThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratLight';
+    src: url('SpratLight.woff2') format('woff2'),
+         url('SpratLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratMedium';
+    src: url('SpratMedium.woff2') format('woff2'),
+         url('SpratMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratRegular';
+    src: url('SpratRegular.woff2') format('woff2'),
+         url('SpratRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpratThin';
+    src: url('SpratThin.woff2') format('woff2'),
+         url('SpratThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

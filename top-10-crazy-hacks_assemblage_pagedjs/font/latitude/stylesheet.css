@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Latitude';
+    src: url('Latitude-Regular.woff2') format('woff2'),
+         url('Latitude-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

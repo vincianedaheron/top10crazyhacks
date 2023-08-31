@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'HalibutCondensed';
+    src: url('HalibutSerif-Condensed.woff2') format('woff2'),
+         url('HalibutSerif-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HalibutCondensedThin';
+    src: url('HalibutSerif-CondensedThin.woff2') format('woff2'),
+         url('HalibutSerif-CondensedThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HalibutExpanded';
+    src: url('HalibutSerif-Expanded.woff2') format('woff2'),
+         url('HalibutSerif-Expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HalibutExpandedThin';
+    src: url('HalibutSerif-ExpandedThin.woff2') format('woff2'),
+         url('HalibutSerif-ExpandedThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HalibutRegular';
+    src: url('HalibutSerif-Regular.woff2') format('woff2'),
+         url('HalibutSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HalibutThin';
+    src: url('HalibutSerif-Thin.woff2') format('woff2'),
+         url('HalibutSerif-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -1,0 +1,20 @@
+
+
+@font-face {
+    font-family: 'MinipaxMedium';
+    src: url('Minipax-Medium.woff2') format('woff2'),
+         url('Minipax-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MinipaxRegular';
+    src: url('Minipax-Regular.woff2') format('woff2'),
+         url('Minipax-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

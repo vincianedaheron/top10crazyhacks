@@ -1,0 +1,10 @@
+
+
+@font-face {
+    font-family: 'BasteleurMoonlight';
+    src: url('Basteleur-Moonlight.woff2') format('woff2'),
+         url('Basteleur-Moonlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

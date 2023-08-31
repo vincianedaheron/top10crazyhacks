@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'OrticaBold';
+    src: url('Ortica-Bold.woff2') format('woff2'),
+         url('Ortica-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OrticaLight';
+    src: url('Ortica-Light.woff2') format('woff2'),
+         url('Ortica-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

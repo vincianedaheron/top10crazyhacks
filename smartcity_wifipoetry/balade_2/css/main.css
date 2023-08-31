@@ -1,0 +1,411 @@
+
+
+
+  :root {
+    --dark-color:#000000;
+    --main-color:rgb(247, 247, 118);
+    --second-color: rgb(230, 230, 230);
+    --third-color:rgb(248, 150, 248);
+    --white-color:#ffffff;
+}
+
+
+body{
+  size: 148mm 210mm;
+  font:20px/1.1em arial, sans-serif;
+  /*background: linear-gradient(#ff9afc, #fda157);*/
+  margin: 0px !important;
+  background-color: var(--main-color);
+  /*border: 7px black dashed;
+  /*background-color: rgb(210, 210, 210);
+  background-image: url(http://api.thumbr.it/whitenoise-1000x2000.png?);
+  background: #fc93e7ff noise(626262) density(51) opacity(22);*/
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.chemins{
+  position: absolute;
+  top:-550px;
+  left:-450px;
+  width: 230%;
+  height:1000%;
+  /*transform: rotate(90deg);*/
+}
+
+.chemins2{
+  position: absolute;
+  display: inline-block;
+  top:50%;
+  left: 0px;
+  width: 200%;
+}
+
+#chemin{
+  mix-blend-mode: normal;
+  z-index: 50;
+  display: inline-block;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  filter:blur(15px) /*opacity(75%)*/;
+}
+
+#chemin2{
+  mix-blend-mode: normal;
+  z-index :-500;
+  display: inline-block;
+  transform: rotate(180deg) ;
+  padding-bottom: 150px;
+  left: 0px;
+  width: 100%;
+  filter:blur(15px) grayscale(1);
+}
+
+
+.img{
+  /*border:rgb(0, 167, 0) dashed 13px ;*/
+  position: absolute;
+  top: 35px;
+}
+
+.img2{
+  /*border:rgb(0, 167, 0) dashed 13px ;*/
+  position: absolute;
+  top: 35px;
+}
+
+/*
+.image{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 50%;
+  width: 25%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(10) contrast(35);
+}
+
+.image2{
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 50%;
+  width: 25%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+
+.allointerim{
+
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  position: relative;
+  height: 35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(10) contrast(35);
+  position: absolute;
+  top:0px;
+  left:5%;
+}
+
+.allointerim2{
+  
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  position: relative;
+  height: 35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:0px;
+  left:5%;
+}
+
+    
+
+
+.communism{
+  
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(10)  contrast(35);
+  position: absolute;
+  top:60%;
+  left:5%;
+}
+
+.communism2{
+  
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height:35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:60%;
+  left:5%;
+}
+
+
+
+.plus{
+  
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(10) contrast(35);
+  position: absolute;
+  top:35%;
+  left:5%;
+}
+
+.plus2{
+  
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 35%;
+  width: 75%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:35%;
+  left:5%;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.love{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  height: auto;
+  width: 70%; 
+  border-radius: 15%;
+  filter: saturate(10)  contrast(35);
+  position: absolute;
+  top:20px;
+  left:80px;
+}
+
+.love2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  height: auto;
+  width: 70%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:20px;
+  left:80px;
+}
+
+
+
+
+
+
+.reseau{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  height: 80%;
+  width: 70%; 
+  border-radius: 15%;
+  filter: saturate(10) contrast(35);
+  position: absolute;
+  bottom:10px;
+  left:80px;
+  /*transform:rotate(270deg);
+  transform-origin: 55% -130%;*/
+}
+
+.reseau2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  height: 80%;
+  width: 70%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  bottom:10px;
+  left:80px;
+  /*border: 3px dashed rgb(247, 247, 118);
+  transform:rotate(270deg);
+  transform-origin: 55% -130%;*/
+}
+
+
+.icone{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  height: auto;
+  width: 15%;
+  border-radius: 15%;
+  filter: saturate(10)  contrast(35);
+  position: absolute;
+  top: 12%;
+  left:43%;
+}
+
+.icone2{
+  -webkit-mix-blend-mode: overlay;
+  mix-blend-mode: overlay;
+  height: auto;
+  width:15%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:12%;
+  left:43%;
+}
+
+
+
+/*.icone{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  height: auto;
+  width: 25%;
+  height: 15%;
+  border-radius: 15%;
+  filter: saturate(10)  contrast(35);
+  position: absolute;
+  top:15%;
+  left:80px;
+}
+
+.icone2{
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  height: auto;
+  width: 25%;
+  height: 15%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+  position: absolute;
+  top:15%;
+  left:80px;
+}*/
+
+
+
+
+

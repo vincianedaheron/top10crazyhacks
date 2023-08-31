@@ -1,0 +1,56 @@
+
+
+@font-face {
+    font-family: 'Fungal0';
+    src: url('Fungal-Grow0Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow0Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fungal100';
+    src: url('Fungal-Grow100Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow100Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fungal200';
+    src: url('Fungal-Grow200Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow200Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fungal300';
+    src: url('Fungal-Grow300Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow300Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Fungal400';
+    src: url('Fungal-Grow400Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow400Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fungal500';
+    src: url('Fungal-Grow500Thickness500.woff2') format('woff2'),
+         url('Fungal-Grow500Thickness500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

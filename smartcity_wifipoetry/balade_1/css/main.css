@@ -1,0 +1,343 @@
+
+:root {
+    --dark-color:#000000;
+    --main-color:rgb(255,255,0);
+    --second-color: rgb(230, 230, 230);
+    --third-color:rgb(228, 228, 255);
+    --white-color:#ffffff;
+}
+
+
+body{
+  size: 148mm 210mm;
+  font:20px/1.1em arial, sans-serif;
+  margin: 0px !important;
+  background-color: var(--third-color);
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.chemins{
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 100%;
+
+}
+
+#chemin{
+  filter: blur(30px) ;
+  width: 100%;
+  z-index :-500;
+  margin-bottom: -390px;
+}
+
+.img{
+  position: absolute;
+  top: 35px;
+  width: 75%;
+}
+
+.img2{
+  position: absolute;
+  top: 35px;
+  width: 75%;
+}
+
+
+.image{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 50%;
+  width: 25%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+
+}
+
+.image2{
+  -webkit-mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  position: relative;
+  display: inline-block;
+  display: center;
+  height: 50%;
+  width: 25%;
+  margin-top: 0px!important;
+  margin-bottom: 0px !important;
+  margin-left: 35px !important;
+  margin-right: 0px !important;
+  padding-top: 0px!important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;  
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+    
+.wel{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 10%;
+  right: 50px;
+  height: 35%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.wel2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 10%;
+  right: 50px;
+  height: 35%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+.lerat{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 55%;
+  right: 50px;
+  height: 35%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.lerat2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 55%;
+  right: 50px;
+  height: 35%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.innocent{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 20%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.innocent2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 20%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+.phantom{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  height: 15%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.phantom2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  height: 15%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+.devices{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  height: 15%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.devices2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  height: 15%;
+  width: 25%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+.good{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 400px;
+  right: 30px;
+  height: 10%;
+  width: 45%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.good2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 400px;
+  right: 30px;
+  height: 10%;
+  width: 45%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+.sogood{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 500px;
+  right: 30px;
+  height: 10%;
+  width: 65%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.sogood2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 500px;
+  right: 30px;
+  height: 10%;
+  width: 65%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}
+
+
+
+
+
+
+
+.delice{
+  -webkit-mix-blend-mode: color;
+  mix-blend-mode: color;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 720px;
+  right: 240px;
+  height: auto;
+  width: 15%;
+  border-radius: 15%;
+  filter: saturate(10) contrast(35) brightness(15%);
+}
+
+.delice2{
+  -webkit-mix-blend-mode: exclusion;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  top: 720px;
+  right: 240px;
+  height: auto;
+  width: 15%;
+  border-radius: 15%;
+  filter: saturate(0) contrast(15);
+}

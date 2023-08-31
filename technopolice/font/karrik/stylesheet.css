@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'KarrikItalic';
+    src: url('Karrik-Italic.woff2') format('woff2'),
+         url('Karrik-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KarrikRegular';
+    src: url('Karrik-Regular.woff2') format('woff2'),
+         url('Karrik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

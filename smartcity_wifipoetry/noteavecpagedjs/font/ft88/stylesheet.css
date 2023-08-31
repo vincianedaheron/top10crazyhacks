@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'FT88Expanded';
+    src: url('FT88-Expanded.woff2') format('woff2'),
+         url('FT88-Expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FT88Gothique';
+    src: url('FT88-Gothique.woff2') format('woff2'),
+         url('FT88-Gothique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FT88Italic';
+    src: url('FT88-Italic.woff2') format('woff2'),
+         url('FT88-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FT88Regular';
+    src: url('FT88-Regular.woff2') format('woff2'),
+         url('FT88-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FT88School';
+    src: url('FT88-School.woff2') format('woff2'),
+         url('FT88-School.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FT88Serif';
+    src: url('FT88-Serif.woff2') format('woff2'),
+         url('FT88-Serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

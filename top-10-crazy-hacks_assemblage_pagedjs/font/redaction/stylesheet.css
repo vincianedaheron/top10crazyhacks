@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'RedactionItalic';
+    src: url('Redaction-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RedactionRegular';
+    src: url('Redaction-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

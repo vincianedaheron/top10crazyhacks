@@ -1,0 +1,88 @@
+:root {
+  --dark-color:#000000;
+  --main-color:rgb(253, 253, 130);
+  --second-color: rgb(230, 230, 230);
+  --third-color:rgb(255, 100, 255);
+  --fourth-color:rgb(50, 67, 255);
+  --white-color:#ffffff;
+}
+
+body{
+  font:20px/1.1em arial, sans-serif;
+}
+
+@page {
+  size: A5;
+  margin: 0mm;
+}
+
+@page:first{
+  @bottom-left-corner {
+    content: none;
+  }
+}
+
+@page:nth(2){
+  @bottom-left-corner {
+    content: none;
+  }
+}
+
+@page:nth(3){
+  @bottom-left-corner {
+    content: none;
+  }
+}
+
+@page:nth(75){
+  @bottom-left-corner {
+    content: none;
+  }
+}
+
+@page:nth(76){
+  @bottom-left-corner {
+    content: none;
+  }
+}
+
+
+@page:right {
+  @bottom-left-corner {
+    content: counter(page);
+    z-index: 50;
+    font-size: 12px;
+    font-family: NectoMono;
+    color: var(--main-color);
+    text-shadow: var(--dark-color) 1px 0 5px;
+    position: absolute;
+    bottom: 3mm;
+    left: 5mm;
+  }
+}
+
+
+@page:left {
+  @bottom-left-corner {
+    content: counter(page);
+    z-index: 100;
+    font-size: 12px;
+    font-family: NectoMono;
+    color: var(--main-color);
+    text-shadow: var(--dark-color) 1px 0 5px;
+    position: absolute;
+    bottom: 3mm;
+    right: 9mm;
+  }
+}
+
+
+.content{
+  width: 100%;
+}
+
+.blank{
+  page-break-before: always;
+}
+
+

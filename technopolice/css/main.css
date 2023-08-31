@@ -1,0 +1,206 @@
+:root {
+  --dark-color:#000000;
+  --main-color:rgb(253, 253, 130);
+  --second-color: rgb(230, 230, 230);
+  --third-color:rgb(255, 100, 255);
+  --fourth-color:rgb(50, 67, 255);
+  --white-color:#ffffff;
+}
+
+
+@page{
+  size: 148mm 210mm;
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+  margin-left: 0mm;
+  margin-right: 0mm;
+  background: radial-gradient(closest-corner, var(--third-color), var(--second-color), var(--second-color));
+  border-left: var(--main-color) 15px dashed;
+  border-right: var(--main-color) 15px dashed;
+}
+
+@page:nth(4){
+  background-color: var(--second-color);
+}
+
+@page:nth(5){
+  background-color: var(--second-color);
+}
+
+.gradient {
+  background: linear-gradient(to bottom, var(--fourth-color), var(--second-color), var(--second-color));
+  position: absolute;
+  top : -10mm;
+  height: 50mm;
+  width: 100%;
+  filter: blur(15px);
+  z-index: -1;
+}
+
+
+.blank{
+  page-break-after: always;
+}
+
+.miniaturefond{
+  position: absolute;
+  top: 100mm;
+  z-index: -5;
+  color: white;
+  border-radius: 35%;
+  background: radial-gradient(var(--third-color), var(--second-color));
+  left: 25mm;
+  width: 75%;
+  padding: 8mm;
+  filter: blur(50px);
+  display: none;
+}
+
+
+.miniaturetexte{
+  position: absolute;
+  top: 110mm;
+  font-family: 'TribaliumPoster';
+  font-size: 65px;
+  z-index: -5;
+  color: var(--white-color);
+  border-radius: 35%;
+  left: 25mm;
+  width: 75%;
+  padding: 8mm;
+  text-align: center;
+  text-justify: distribute;
+  display: none;
+}
+
+.titre{
+  font-family: 'MessapiaRegular';
+  font-size: 25px;
+  margin: 0%;
+  margin-top: -3mm;
+  padding: 0%;
+}
+
+.titre2{
+  font-family: 'MessapiaRegular';
+  font-size: 25px;
+  text-align: justify;
+  text-align-last: justify;
+  text-decoration: underline 20px var(--main-color);/*
+  text-indent: 5mm;
+  background: radial-gradient(var(--main-color), var(--second-color));
+  border-radius: 40px;/*
+  color: var(--main-color);*/
+  text-shadow: var(--main-color) 1px 0 5px;
+  margin-top: 0%;
+  z-index: 5;
+}
+
+.soustitre{
+  margin-top: 2mm;
+  margin-bottom: 2mm;
+  text-align: left;
+}
+
+.first{
+  position: absolute; 
+  top: 22mm;
+  left: 15mm;
+}
+
+.entretien{ 
+  font-family: 'SwitzerMedium';
+  font-size: 10px;
+  columns: 2;
+}
+
+.text{
+  padding: 0%;
+  margin-top: 0%;
+  margin-bottom: 3mm;
+}
+
+.reponse{
+  /*padding-left: 10mm;*/
+  font-family: 'SwitzerMedium';
+  /*box-shadow: 1px 1px 15px var(--main-color);
+  border-radius: 5px;*/
+}
+
+.question{
+  margin-bottom: 0%;
+  text-decoration: underline;
+  background-color: var(--main-color);
+}
+
+.atelier{
+  page-break-before: always;
+  font-family: 'SwitzerMedium';
+  font-size: 10px;
+  text-align: left;
+  columns: 2;
+  z-index: 10;
+}
+
+.intro{
+  padding-left: 0mm;
+  padding-top: 0mm;
+  padding-bottom: 0mm;
+}
+
+.content{
+  font-family: SwitzerMedium;
+  text-align: left;
+  text-align-last: left;
+  /*margin-left: 10mm;*/
+  z-index: 5;
+}
+
+.contenu{
+  border-radius: 10px;
+  /*background: radial-gradient( var(--main-color), var(--second-color));*/
+  text-shadow: var(--main-color) 1px 0 5px;
+}
+
+.titrecontent{
+  text-decoration: underline 35px var(--main-color);
+  margin-bottom: 45px;
+  
+  text-shadow: var(--main-color) 1px 0 10px;
+}
+
+.ab, .bb{
+  margin-top: 0%;
+  text-indent: 5mm;
+}
+
+.aa, .ba{
+  margin-bottom: 0%;
+}
+
+.carte{
+  width: 118mm;
+  margin-left: 10mm;
+  mix-blend-mode: color;
+  display: none;
+}
+
+.logo{
+  width: 58mm;
+  margin-left: 10mm;
+  mix-blend-mode: luminosity;
+  position: absolute;
+  top:35%;
+  left:35%;
+  z-index:-2;
+  display: none;
+}
+
+
+.pain{
+  width: 98mm;
+  position: absolute;
+  top:50%;
+  left:40%;
+  z-index:2;
+}

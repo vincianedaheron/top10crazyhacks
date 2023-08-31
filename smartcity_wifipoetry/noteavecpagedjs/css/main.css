@@ -1,0 +1,52 @@
+:root {
+  --dark-color:#000000;
+  --main-color:rgb(255,255,0);
+  --second-color: rgb(230, 230, 230);
+  --third-color:rgb(255, 0, 255);
+  --white-color:#ffffff;
+}
+
+
+@page{
+  size : 148mm 210mm;
+  margin-top: 5mm;
+  margin-right: 5mm;
+  margin-left: 5mm;
+  margin-bottom: 5mm;
+  background-color: var(--white-color);
+ 
+}
+
+.note{
+  font-family: 'BBBaskervvolBase';
+  font-size: 11px;
+  line-height: 11px;
+  color: var(--third-color);
+}
+
+.categpry{
+  text-decoration: underline;
+  font-family: 'SneakyTimes';
+  font-size: 7px;
+}
+
+
+.liste{
+  font-family: 'AmiamieRegular';
+  color: var(--third-color);
+  font-size: 8px;
+  line-height: 10px;
+  column-count: 4;
+  column-gap: 0mm;
+  -moz-column-gap: 0mm;
+  -webkit-column-gap: 0mm;
+  width: 100%;
+  position: absolute;
+  left: -10mm;
+  margin: 5mm !important;
+  padding-left: 0mm !important;
+}
+
+.end{
+  page-break-before: always;
+}

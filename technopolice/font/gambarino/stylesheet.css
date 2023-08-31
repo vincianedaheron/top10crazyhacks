@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Gambarino';
+    src: url('Gambarino-Regular.woff2') format('woff2'),
+         url('Gambarino-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
