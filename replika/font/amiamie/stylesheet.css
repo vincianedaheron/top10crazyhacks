@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'AmiamieBlack';
+    src: url('Amiamie-Black.woff2') format('woff2'),
+         url('Amiamie-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmiamieLight';
+    src: url('Amiamie-Light.woff2') format('woff2'),
+         url('Amiamie-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmiamieRegular';
+    src: url('Amiamie-Regular.woff2') format('woff2'),
+         url('Amiamie-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmiamieItalic';
+    src: url('Amiamie-Italic.woff2') format('woff2'),
+         url('Amiamie-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

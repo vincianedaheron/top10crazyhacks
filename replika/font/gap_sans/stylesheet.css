@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GapSansRegular';
+    src: url('gapsans-webfont.woff2') format('woff2'),
+         url('gapsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GapSansBold';
+    src: url('gapsansbold-webfont.woff2') format('woff2'),
+         url('gapsansbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

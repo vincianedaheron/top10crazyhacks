@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ApfelGrotezkBrukt';
+    src: url('ApfelGrotezk-Brukt.woff2') format('woff2'),
+         url('ApfelGrotezk-Brukt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ApfelGrotezkFett';
+    src: url('ApfelGrotezk-Fett.woff2') format('woff2'),
+         url('ApfelGrotezk-Fett.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ApfelGrotezkRegular';
+    src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+         url('ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

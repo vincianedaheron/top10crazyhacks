@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SneakyTimes';
+    src: url('Sneaky-Times.woff2') format('woff2'),
+         url('Sneaky-Times.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

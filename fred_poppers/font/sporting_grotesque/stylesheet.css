@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'SportingGrotesqueBold';
+    src: url('Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+         url('Sporting_Grotesque-Bold_web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SportingGrotesqueRegular';
+    src: url('Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+         url('Sporting_Grotesque-Regular_web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

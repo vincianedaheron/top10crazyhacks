@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'chelougaramondt';
+    src: url('Garamondt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chelougaramondtitalic';
+    src: url('Garamondt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

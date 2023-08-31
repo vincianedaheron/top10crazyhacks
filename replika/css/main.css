@@ -1,0 +1,150 @@
+:root {
+  --dark-color:#000000;
+  --main-color:rgb(253, 253, 130);
+  --second-color: rgb(230, 230, 230);
+  --third-color:rgb(255, 50, 255);
+  --fourth-color:rgb(50, 67, 255);
+  --white-color:#ffffff;
+}
+
+@page{
+  size: 148mm 210mm;
+  background-image: radial-gradient(var(--main-color), var(--second-color));
+  margin-top: 5mm;
+  margin-bottom: 3mm;
+  margin-left: 5mm;
+  margin-right: 5mm;
+  z-index: -2;
+}
+
+@page:nth(4){
+  background:var(--main-color);
+}
+
+
+.gradient {
+  background-image: radial-gradient(var(--main-color), var(--second-color)) !important;
+  background-image: -webkit-radial-gradient(var(--main-color), var(--second-color)) !important;
+  position: absolute;
+  top : 0mm;
+  height: 100%;
+  width: 100%;
+  filter: blur(0px);
+  z-index: -1;
+}
+
+
+.titre{
+  font-family: 'SpratExtandedRegular';
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: lighter;
+  margin-top: 2mm;
+  color: var(--fourth-color);
+  -webkit-text-stroke: rgb(255, 255, 130);
+  -webkit-text-stroke-width: 3px; 
+  padding-bottom: 1mm;
+  margin-bottom: 8mm;
+  margin-left: 10mm;
+  width: 115mm;
+  display: center;
+  font-kerning:normal;
+  text-align: center;
+  background-color: var(--white-color);
+  box-shadow: rgb(255, 255, 255) 1px 1px 15px, rgb(255, 255, 255)  -1px 1px 15px, rgb(255, 255, 255)  -1px -1px 15px, rgb(255, 255, 255) 1px -1px 15px;
+}
+
+.paragraphe{
+  font-family: NectoMono;
+  font-size: 11px;
+  line-height: normal;
+  padding: 0%;
+  margin: 0px;
+  column-count: 3;
+  column-gap: 3mm;
+  height: auto;
+  color: var(--fourth-color);
+}
+
+.deux{
+  column-count: 1;
+  width: 31%;
+}
+
+.dix{
+  margin-top: 0%;
+}
+
+
+.echange{
+  font-style: italic;
+  border-left: var(--white-color) solid 0px;
+  padding: 2mm;
+  margin-left: 32%;
+  color: var(--fourth-color);
+  column-count: 1;
+  width: 68%;
+  border-radius: 15px;
+  background-color: var(--white-color);
+  box-shadow: #ffffff 1px 1px 15px, #ffffff  -1px 1px 15px, #ffffff  -1px -1px 15px, #ffffff  1px -1px 15px;
+
+}
+
+.special{
+  font-family: 'NectoMono';
+  font-size: 11px;
+}
+
+.special2{
+  font-family: 'TribaliumPoster';
+  font-size: 11px;
+}
+
+.break{
+  page-break-after: always;
+}
+
+.imgun{
+  height: auto;
+  display: block;
+}
+
+.fond{
+  z-index: -5;
+  font-size: 500px;
+  font-family: 'Zara';
+  color: var(--white-color);
+  position: absolute;
+  top: -300px;
+  width: 148mm;
+  display: none;
+}
+
+.icono{
+  width: 90%;
+  margin-left: 0mm;
+  margin-right: 0mm;
+  margin-bottom: 3mm;
+  margin-top: 0mm;
+  padding: 0%;
+  display: block;
+  box-shadow: 1px 1px 15px var(--third-color);
+}
+
+.imgdeux{
+  height: auto;
+  display: block;
+  margin-bottom: 3mm;
+}
+
+.barre{
+  text-decoration: line-through;
+  font-family: 'MessapiaBold';
+  font-size: 23px;
+  line-height: 24px;
+}
+
+.rep{
+  
+  background-color: var(--fourth-color);
+}

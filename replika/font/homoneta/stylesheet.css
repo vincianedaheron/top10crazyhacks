@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'HomonetaRegular';
+    src: url('Homoneta-Regular.woff2') format('woff2'),
+         url('Homoneta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HomonetaItalic';
+    src: url('Homoneta-Italic.woff2') format('woff2'),
+         url('Homoneta-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

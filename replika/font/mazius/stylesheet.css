@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'MaziusExtraItalic';
+    src: url('MAZIUSREVIEW20.09-Extraitalic.woff2') format('woff2'),
+         url('MAZIUSREVIEW20.09-Extraitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MaziusItalic';
+    src: url('MAZIUSREVIEW20.09-Italic.woff2') format('woff2'),
+         url('MAZIUSREVIEW20.09-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MaziusRegular';
+    src: url('MAZIUSREVIEW20.09-Regular.woff2') format('woff2'),
+         url('MAZIUSREVIEW20.09-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

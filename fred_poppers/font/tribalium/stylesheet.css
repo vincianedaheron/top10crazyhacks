@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'TribaliumPoster';
+    src: url('TribaliumNeue-Poster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TribaliumRegular';
+    src: url('TribaliumNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

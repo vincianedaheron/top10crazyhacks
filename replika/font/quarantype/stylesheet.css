@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'QuarantypeOblique';
+    src: url('Quarantype-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuarantypeRegular';
+    src: url('Quarantype-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

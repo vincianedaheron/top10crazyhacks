@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NectoMono';
+    src: url('Necto-Mono.woff') format('woff'), 
+    url('Necto-Mono.woff2')format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
